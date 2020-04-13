@@ -17,7 +17,7 @@ This algorithm focuses on grouping pixels into rectangles, sums up their pixelâ€
 **Histogram of oriented gradients:**  
 The essential thought behind the histogram of oriented gradients descriptor is that local object appearance and shape within an image can be described by the distribution of intensity gradients or edge directions. The image is divided into small connected regions called cells, and for the pixels within each cell, a histogram of gradient directions is compiled.
 
-###  Sources:
+##  Sources:
 Youtube, Computer Vision - Integral images - https://www.youtube.com/watch?v=x41KFOFGnUE  
 Mauritech labs - What is Image Recognition and how does it work? - https://marutitech.com/working-image-recognition/  
 Wikipedia - Haar-like feature - https://en.wikipedia.org/wiki/Haar-like-feature  
