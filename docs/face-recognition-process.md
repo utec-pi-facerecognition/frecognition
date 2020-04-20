@@ -6,7 +6,7 @@ After going through the Face Detection Process, the array of Face Embeddings sho
 
 We should receive an array of Embeddings from the Face Detection CNN, which will contain each individual Embedding for each face found in the original input image. Each of these embeddings are going to be of size 128. Then, each of these is going to be treated as a vector of 128 dimensions. As vectors, we can find distances between them. In this implementation, the *L1-Norm* will be used. The L1-Norm is also known as <ins>Manhattan Distance</ins>. By using the embeddings stored in the database for the faces previously stored, we treat each of them as a vector and calculate its Manhattan Distance. An example is shown in the diagram below. For simplicity, we will do the following example with 12 dimensions. 
 
-![Face recognition Diagram](docs/diagrams/face-recon-diagram.jpeg)
+![Face recognition Diagram](diagrams/face-recon-diagram.jpeg)
 
 ### Output
 
