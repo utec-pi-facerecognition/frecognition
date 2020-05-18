@@ -6,7 +6,7 @@ def backend_face_comparation(_embeddings_to_compare, _dataset_of_embeddings):
   
   for _embedding in _embeddings_to_compare:
     # IMPORTANTE
-    # Cambiar 'Código' y 'Embedding' por las etiquetas correspondientes del dataset
-    identified_faces.append(inline_knn(_embedding, _dataset_of_embeddings, 'Codigo', 'Embedding', 1)[0])
+    # Cambiar 'codigo' y 'atributos' por las etiquetas correspondientes del dataset
+    identified_faces.append(inline_knn(_embedding, _dataset_of_embeddings, 'codigo', 'atributos', 1)[0])
   
   return identified_faces
