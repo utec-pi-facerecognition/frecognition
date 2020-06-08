@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/utec-pi-facerecognition/backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/utec-pi-facerecognition/frontend
